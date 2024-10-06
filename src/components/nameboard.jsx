@@ -25,7 +25,7 @@ const myprojects =[
   description : "An intuitive task manager app designed for efficient task organization, prioritization, and seamless user experience across devices."
 },
 {projectname : "factsgenerator",
-  url : "https://silver-hamster-315a8e.netlify.app/"
+  url : "https://rococo-jalebi-21a133.netlify.app/"
   , imageurl : "https://tse2.mm.bing.net/th?id=OIP.Tnzm9Ip_dG65T7eVXYl5vwHaHa&pid=Api&P=0&h=220",
   description : "A fun and educational random facts generator app providing users with interesting and surprising facts on various topics."
 }
