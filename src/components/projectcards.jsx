@@ -33,7 +33,7 @@ export function Projectcards({ myprojects }) {
         transform: "translateY(-10px)", // Elevates the card upward slightly on hover
         boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
       },
-      height: "550px", // Consistent height across devices
+      height: "600px", // Consistent height across devices
     }}
   >
     {/* Floating Icon at the Top */}
