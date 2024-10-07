@@ -30,10 +30,10 @@ export function Projectcards({ myprojects }) {
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
       "&:hover": {
-        transform: "translateY(-10px)", // Elevates the card upward slightly on hover
+        transform: "translateY(-10px)", // Elevte
         boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
       },
-      height: "600px", // Consistent height across devices
+      height: "600px", // Consistent height 
     }}
   >
     {/* Floating Icon at the Top */}
@@ -75,7 +75,7 @@ export function Projectcards({ myprojects }) {
       sx={{
         padding: "16px",
         textAlign: "center",
-        flexGrow: 1, // Makes the content grow to fill space
+        flexGrow: 1, // Makes the content gr
       }}
     >
       <Typography
@@ -180,7 +180,7 @@ export function Projectcards({ myprojects }) {
         marginTop: "auto",
         transition: "transform 0.3s ease, box-shadow 0.3s ease",
         "&:hover": {
-          transform: "translateY(-5px)", // Elevates the card upward slightly on hover
+          transform: "translateY(-5px)", // Elev
           boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
           backgroundColor : "red"
         },
@@ -203,7 +203,7 @@ export function Projectcards({ myprojects }) {
       marginTop: "5px",
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
       "&:hover": {
-        transform: "translateY(-2px)", // Elevates the card upward slightly on hover
+        transform: "translateY(-2px)", // Ele
         boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
         backgroundColor : "red"
       },
@@ -227,7 +227,7 @@ export function Projectcards({ myprojects }) {
       marginTop: "5px",
       transition: "transform 0.3s ease, box-shadow 0.3s ease",
       "&:hover": {
-        transform: "translateY(-2px)", // Elevates the card upward slightly on hover
+        transform: "translateY(-2px)", // Elevte the crd
         boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)",
         backgroundColor : "red"
       },
