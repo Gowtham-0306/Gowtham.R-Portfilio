@@ -16,22 +16,33 @@ const theme = createTheme({
 const myprojects =[
 {projectname : "Ecommerce",
   url : "https://sparkly-fox-55236c.netlify.app/",
-  description : "An ecommerce project showcasing stylish products with detailed descriptions, responsive design, and seamless cart functionality."
-  , imageurl : "https://cdn-icons-png.flaticon.com/512/8764/8764182.png"
+  description : "An ecommerce project showcasing products with detailed descriptions, responsive design, and seamless cart functionality."
+  , imageurl : "https://static.vecteezy.com/system/resources/previews/006/547/178/original/creative-modern-abstract-ecommerce-logo-design-colorful-gradient-online-shopping-bag-logo-design-template-free-vector.jpg" ,
+  gitfrontend : "https://github.com/Gowtham-0306/Guvi-Ecom-frontend-fe.git" ,  gitbackend : "https://github.com/Gowtham-0306/Guvi-Ecom-nodejs-be.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
 },
 {projectname : "taskmanager",
   url : "https://gentle-cuchufli-dcdb92.netlify.app/",
   imageurl : "https://cdn.dribbble.com/users/268665/screenshots/1554614/icon.jpg",
+  
   description : "An intuitive task manager app designed for efficient task organization, prioritization, and seamless user experience across devices."
+, gitfrontend : "https://github.com/Gowtham-0306/guvi-final--FE.git" ,  gitbackend : "https://github.com/Gowtham-0306/guvi-final-node.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
 },
 {projectname : "factsgenerator",
-  url : "https://rococo-jalebi-21a133.netlify.app/"
+  url : "https://silver-hamster-315a8e.netlify.app/"
   , imageurl : "https://tse2.mm.bing.net/th?id=OIP.Tnzm9Ip_dG65T7eVXYl5vwHaHa&pid=Api&P=0&h=220",
   description : "A fun and educational random facts generator app providing users with interesting and surprising facts on various topics."
+,  gitfrontend : "https://github.com/Gowtham-0306/CatfactsFE.git" ,  gitbackend : "https://github.com/Gowtham-0306/catfactsBE.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
+
 }
 ,
 
+{projectname : "Student data manager",
+  url : "https://soft-bubblegum-37a3e6.netlify.app/"
+  , imageurl : "https://tse2.mm.bing.net/th?id=OIP.46WR6sNkWz4jp_OE3XPpNwHaMp&pid=Api&P=0&h=220",
+  description : "A fun and educational random facts generator app providing users with interesting and surprising facts on various topics."
+,  gitfrontend : "https://github.com/Gowtham-0306/guvi-studentdetails-FE.git" ,  gitbackend : "https://github.com/Gowtham-0306/guvi-studentdetails.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
 
+}
 
 
 
