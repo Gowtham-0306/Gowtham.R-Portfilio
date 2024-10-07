@@ -173,10 +173,10 @@ Skills
         <Grid 
           item 
           key={index} 
-          xs={12}  // Full width on extra small screens
-          sm={6}   // Half width on small screens
-          md={4}   // One-third width on medium screens
-          lg={3}   // One-fourth width on large screens
+          xs={12}  // Full width 
+          sm={6}   // Half width 
+          md={4}   // One-third 
+          lg={3}   // One-fourth 
         >
           <Projectcards myprojects={item} />
         </Grid>
