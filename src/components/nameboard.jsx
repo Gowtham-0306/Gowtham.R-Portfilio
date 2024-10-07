@@ -28,7 +28,7 @@ const myprojects =[
 , gitfrontend : "https://github.com/Gowtham-0306/guvi-final--FE.git" ,  gitbackend : "https://github.com/Gowtham-0306/guvi-final-node.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
 },
 {projectname : "factsgenerator",
-  url : "https://silver-hamster-315a8e.netlify.app/"
+  url : "https://rococo-jalebi-21a133.netlify.app/"
   , imageurl : "https://tse2.mm.bing.net/th?id=OIP.Tnzm9Ip_dG65T7eVXYl5vwHaHa&pid=Api&P=0&h=220",
   description : "A fun and educational random facts generator app providing users with interesting and surprising facts on various topics."
 ,  gitfrontend : "https://github.com/Gowtham-0306/CatfactsFE.git" ,  gitbackend : "https://github.com/Gowtham-0306/catfactsBE.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
