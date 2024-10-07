@@ -39,7 +39,7 @@ const myprojects =[
 {projectname : "Student data manager",
   url : "https://soft-bubblegum-37a3e6.netlify.app/"
   , imageurl : "https://tse2.mm.bing.net/th?id=OIP.46WR6sNkWz4jp_OE3XPpNwHaMp&pid=Api&P=0&h=220",
-  description : "A fun and educational random facts generator app providing users with interesting and surprising facts on various topics."
+  description : "A student data manager app designed to help organize and track student information across various academic metrics"
 ,  gitfrontend : "https://github.com/Gowtham-0306/guvi-studentdetails-FE.git" ,  gitbackend : "https://github.com/Gowtham-0306/guvi-studentdetails.git" , skills : " React, Node JS , Mongo DB , Java Script , HTML , CSS"
 
 }
