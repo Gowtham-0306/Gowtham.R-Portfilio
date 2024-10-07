@@ -29,6 +29,8 @@ export function Navbar() {
               </Grid>
               <Grid item xs={12} sm={9}>
                 <Grid container justifyContent="space-evenly" spacing={2}>
+
+
                   <Grid item>
                     <Link to={"/hireme"} style={{textDecoration : 'none'}}>
                     <a href="#"  style={{color : ishiremepresent ? "gold" : "white",  textDecoration : "none"}}   onMouseEnter={(e) => e.target.style.color = 'gold' }
@@ -52,6 +54,17 @@ export function Navbar() {
                   
                   
                   </Grid>
+
+  <Grid item>
+                   
+                   <a href="https://github.com/Gowtham-0306/Gowtham.R-Portfilio"  target="_blank" style={{color : ishiremepresent ? "gold" : "white",  textDecoration : "none"}}   onMouseEnter={(e) => e.target.style.color = 'gold' }
+       onMouseLeave={(e) => e.target.style.color =  'white'} >Git repository link </a>
+                 
+                 
+                 </Grid>
+
+
+
                 </Grid>
               </Grid>
             </Grid>
