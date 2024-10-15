@@ -6,9 +6,13 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+
 import { Grid } from '@mui/material';
+
+
 import { BrowserRouter , Route , Routes, useLocation ,Link} from 'react-router-dom';
 import Hireme from '../hireme';
+import viteLogo from '/vite.svg'
 import { useParams } from 'react-router-dom';
 
 export function Navbar() {
@@ -16,6 +20,15 @@ export function Navbar() {
   const isHomePresent = location.pathname.includes('/');
   var page = useParams();
   console.log(isHomePresent);
+
+  const handleResumeClick = () => {
+    //
+
+window.open('/resume.pdf');
+
+  };
+
+  
   return (
     <>
       <Box sx={{ flexGrow: 1 }}>
@@ -49,8 +62,15 @@ export function Navbar() {
                   </Grid>
                   <Grid item>
                    
-                    <a href="https://drive.google.com/drive/folders/1BtDDcSBEwU-gyi9mccHcuwdbLyWOVPik"  style={{color : ishiremepresent ? "gold" : "white",  textDecoration : "none"}}   onMouseEnter={(e) => e.target.style.color = 'gold' }
-        onMouseLeave={(e) => e.target.style.color =  'white'} >My Resume</a>
+                  <a
+    onClick={handleResumeClick}  // 
+    style={{ color: ishiremepresent ? "gold" : "white", textDecoration: "none" }}
+    onMouseEnter={(e) => e.target.style.color = 'gold'}
+    onMouseLeave={(e) => e.target.style.color = 'white'}
+    href="#"  // 
+  >
+    My Resume
+  </a>
                   
                   
                   </Grid>
